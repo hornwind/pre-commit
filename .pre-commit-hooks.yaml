@@ -1,0 +1,7 @@
+- id: ct-lint
+  name: ct-lint
+  description: Run chart-test lint
+  entry: hooks/ct-lint.sh
+  language: script
+  files: 'charts/.*\.((ya?ml)|(tpl))$'
+  pass_filenames: false
