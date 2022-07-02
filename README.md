@@ -1,6 +1,6 @@
 # Pre-commit hooks
 
-This repo defines Git pre-commit hooks intended for use with [pre-commit](https://pre-commit.com/). More hooks awailable [here](https://github.com/gruntwork-io/pre-commit).
+This repo defines Git pre-commit hooks intended for use with [pre-commit](https://pre-commit.com/). More hooks available [here](https://github.com/gruntwork-io/pre-commit).
 
 * **ct-lint**: Automatically run `ct lint` on your Helm charts in `charts` directory of your repo. [Chart-testing documentation](https://github.com/helm/chart-testing/blob/main/README.md).
 
