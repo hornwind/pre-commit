@@ -5,3 +5,10 @@
   language: script
   files: 'charts/.*\.((ya?ml)|(tpl))$'
   pass_filenames: false
+- id: helm-kubeval
+  name: helm-kubeval
+  description: Run kubeval over helm template
+  entry: hooks/helm-kubeval.sh
+  language: script
+  files: 'charts/.*\.((ya?ml)|(tpl))$'
+  pass_filenames: false
