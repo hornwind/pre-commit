@@ -16,7 +16,7 @@ repos:
     hooks:
       - id: ct-lint
       - id: helm-kubeval
-        args: ["--kubernetes-version 1.19.0"]
+        args: ["--kubernetes-version", "1.19.0"]
 ```
 
 Next, have every developer:
